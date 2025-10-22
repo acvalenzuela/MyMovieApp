@@ -1,0 +1,53 @@
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #e0f7fa, #b2ebf2);
+}
+
+.signup-container {
+  width: 90%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333333;
+}
+
+.ion-item {
+  --border-radius: 10px;
+  --background: #f0f0f0;
+  padding-left: 12px;
+}
+
+.ion-button {
+  border-radius: 25px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.ion-text-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.ion-text-link:hover {
+  text-decoration: underline;
+}

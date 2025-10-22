@@ -1,0 +1,67 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ActionResult = exports.InternalCommand = exports.CommandName = void 0;
+// vsCode Ionic Command Names match to the strings in package.json
+var CommandName;
+(function (CommandName) {
+    CommandName["Run"] = "webnative.runapp";
+    CommandName["Fix"] = "webnative.fix";
+    CommandName["Link"] = "webnative.link";
+    CommandName["Idea"] = "webnative.lightbulb";
+    CommandName["Refresh"] = "webnative.refresh";
+    CommandName["Add"] = "webnative.add";
+    CommandName["Stop"] = "webnative.stop";
+    CommandName["Rebuild"] = "webnative.rebuild";
+    CommandName["RefreshDebug"] = "webnative.refreshDebug";
+    CommandName["Function"] = "webnative.function";
+    CommandName["Open"] = "webnative.open";
+    CommandName["Upgrade"] = "webnative.upgrade";
+    CommandName["ProjectsRefresh"] = "webnative.projectRefresh";
+    CommandName["ProjectSelect"] = "webnative.projectSelect";
+    CommandName["BuildConfig"] = "webnative.buildConfig";
+    CommandName["RunConfig"] = "webnative.runConfig";
+    CommandName["StatusRun"] = "webnative.statusRun";
+    CommandName["LiveReload"] = "webnative.liveReload";
+    CommandName["LiveReloadSelected"] = "webnative.liveReloadSelected";
+    CommandName["WebOpenBrowser"] = "webnative.webOpenBrowser";
+    CommandName["WebOpenBrowserSelected"] = "webnative.webOpenBrowserSelected";
+    CommandName["WebEditor"] = "webnative.webEditor";
+    CommandName["WebEditorSelected"] = "webnative.webEditorSelected";
+    CommandName["WebNexusBrowser"] = "webnative.webNexus";
+    CommandName["WebNexusBrowserSelected"] = "webnative.webNexusSelected";
+    CommandName["WebDebugConfig"] = "webnative.webDebugConfig";
+    CommandName["SelectAction"] = "webnative.selectAction";
+    CommandName["DebugMode"] = "webnative.debugMode";
+    CommandName["PluginExplorer"] = "webnative.pluginExplorer";
+    CommandName["NewProject"] = "webnative.newProject";
+    CommandName["RunMode"] = "webnative.runMode";
+    CommandName["SelectDevice"] = "webnative.selectDevice";
+    CommandName["RunIOS"] = "webnative.run";
+    CommandName["RunForIOS"] = "webnative.runIOS";
+    CommandName["RunForAndroid"] = "webnative.runAndroid";
+    CommandName["RunForWeb"] = "webnative.runWeb";
+    CommandName["ShowLogs"] = "webnative.showLogs";
+    CommandName["OpenWeb"] = "webnative.openWeb";
+    CommandName["OpenEditor"] = "webnative.openEditor";
+    CommandName["Sync"] = "webnative.capSync";
+    CommandName["Debug"] = "webnative.debug";
+    CommandName["Build"] = "webnative.build";
+    CommandName["OpenInXCode"] = "webnative.openXcode";
+    CommandName["OpenInAndroidStudio"] = "webnative.openAndroidStudio";
+    CommandName["ViewDevServer"] = "webnative.viewDevServer";
+    CommandName["HideDevServer"] = "webnative.hideDevServer";
+})(CommandName || (exports.CommandName = CommandName = {}));
+var InternalCommand;
+(function (InternalCommand) {
+    InternalCommand["cwd"] = "[@cwd]";
+    InternalCommand["target"] = "[@target]";
+    InternalCommand["removeCordova"] = "rem-cordova";
+    InternalCommand["ionicInit"] = "[@ionic-init]";
+    InternalCommand["publicHost"] = "[@public-host]";
+})(InternalCommand || (exports.InternalCommand = InternalCommand = {}));
+var ActionResult;
+(function (ActionResult) {
+    ActionResult["None"] = "";
+    ActionResult["Ignore"] = "ignore";
+})(ActionResult || (exports.ActionResult = ActionResult = {}));
+//# sourceMappingURL=command-name.js.map
